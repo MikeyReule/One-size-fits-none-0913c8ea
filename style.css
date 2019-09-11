@@ -1,0 +1,37 @@
+h1 {
+	color: red;
+	text-shadow: 0 0 5px red;
+	background: rgba(255, 255, 255, 0.2);
+	padding: 20px;
+	border-color: solid red;
+	border-style: solid;
+	border-radius: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+body {
+	background: rgba(20, 20, 25, 1);
+	color: white;
+	letter-spacing: 0.05em;
+}
+
+a {
+	text-shadow: 0 0 80px lime;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: lime;
+}
+
+a:hover {
+	text-shadow: 0 0 80px red;
+	color: red;
+	transition: 1s;
+}
+
+.strangerthings {
+	width: 350px;
+	border: 2px;
+	border-style: solid;
+	color: red;
+}
